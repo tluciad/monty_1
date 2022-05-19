@@ -41,7 +41,7 @@ typedef struct instruction_s
 ssize_t read_textfile(const char *filename, size_t letters);
 void push(stack_t **s, unsigned int new_value);
 void pall(stack_t **s, __attribute__((unused)) unsigned int new_value);
-void pint(stack_t **s, unsigned int new_vaalue);
+void pint(stack_t **s, unsigned int new_value);
 void swap_two_elements(stack_t **s, unsigned int new_item);
 void add(stack_t **s, unsigned int new_value);
 void nop(stack_t **s, unsigned int new_value);
